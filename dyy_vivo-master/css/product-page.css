@@ -1,0 +1,482 @@
+.vivo-contain{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	background: #fafafa;
+	position: relative;
+	z-index: 9;
+	margin-top: 80px;
+}
+.vivo-contain .vivo-product{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position:relative;
+}
+.vivo-contain .recommend-product{
+	width: 1100px;
+	height: auto;
+	margin: auto;
+}
+.recommend-product h2{
+	line-height: 80px;
+	text-align: center;
+}
+.recommend-product h2 b{
+	display: inline-block;
+	height: 1px;
+	width: 1100px;
+	position: absolute;
+	overflow: hidden;
+    top: 50px;
+	margin-left: -505px;	
+	background: #dcdcdc;	
+}
+.recommend-product h2 strong{
+	font-size: 18px;
+	background: #FAFAFA;display: inline-block;
+	top: -15px;
+	padding-left: 10px;
+	padding-right:10px;
+	position: relative;
+	color: #333333;
+	font-weight: normal;
+}
+.vivo-product .product-list{
+	height: 665px;
+	width: 1100px;
+	overflow: hidden;
+	border: 1px solid #EEEEEE;
+	background: white;
+	margin-top: -20px;
+}
+.product-list ul li .list-one{
+	position: absolute;
+	display: block;
+	overflow: hidden;
+}
+.product-list ul .list-one{
+	position: relative;
+	width: 714px;
+	height: 332px;
+	top: 0;
+	left: -40px;
+	background: white;
+	float: left;
+}
+.product-list ul .list-one a{
+	height: 332px;
+	position: relative;
+	display: block;
+}
+.product-list ul .list-one a h2{
+	position: absolute;
+	width: 245px;
+	height: 55px;
+	top: 100px;
+	left: 50px;
+}
+.product-list ul .list-one a h2 img{
+	width: 245px;
+	height: 55px;
+}
+.product-list ul .list-one a span{
+	position: absolute;
+	display: block;
+	color: #008CD6;
+	width: 70px;
+	height: 24px;
+	border: 1px solid #008CD6;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 130px;
+	margin-top: -120px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.product-list ul .list-one .figure{
+	height: 332px;
+	width: 267px;
+	margin-left: 400px;
+}
+.product-list ul .list-one .figure img{
+	height: 332px;
+	width: 267px;
+}
+.product-list ul .list-two{
+	position: relative;
+	height: 740px;
+	width:384px;
+	top:-400px;
+	background:#f4efe6;
+	float: right;	
+}
+.product-list ul .list-two a{
+	height: 383px;
+	height: 740px;
+	position: relative;
+	display: block;
+}
+.product-list ul .list-two a h3{
+	position: absolute;
+	width: 245px;
+	height: 55px;
+	top: -180px;
+	left: 140px;
+}
+.product-list ul .list-two a h3 img{
+	width: 115px;
+	height: 75px;
+}
+.product-list ul .list-two .figure{
+	height: 450px;
+	width: 350px;
+	margin-left: 30px;
+	margin-top: 300px;
+}
+.product-list ul .list-two a span{
+	position: absolute;
+	display: block;
+	color: #008CD6;
+	width: 70px;
+	height: 24px;
+	border: 1px solid #008CD6;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 160px;
+	margin-top: -520px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.product-list ul .list-two .figure img{
+	height: 450px;
+	width: 350px;
+}
+.product-list ul .list-three{
+	position: relative;
+	width: 358px;
+	height: 333px;
+	top: 332px;
+	left: -40px;
+	background:white;
+	border: 1px solid #EEEEEE;
+}
+.product-list ul .list-three a{
+	width: 358px;
+	height: 333px;
+	display: block;
+}
+.product-list ul .list-three a h3{
+	position: absolute;
+	width: 130px;
+	height: 55px;
+	top: 8px;
+	left: 100px;
+}
+.product-list ul .list-three a h3 img{
+	width: 130px;
+	height: 55px;
+}
+.product-list ul .list-three .figure{
+	position: absolute;
+	width: 210px;
+	height: 180px;
+	top: 150px;
+	left: 80px;
+}
+.product-list ul .list-three .figure img{
+	width: 210px;
+	height: 180px;
+}
+.product-list ul .list-three a span{
+	position: absolute;
+	display: block;
+	color: #008CD6;
+	width:70px;
+	height: 24px;
+	border: 1px solid #008CD6;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 130px;
+	margin-top: 100px;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.product-list ul .list-four{
+	position: relative;
+	width: 356px;
+	height:333px ;
+	margin-left: 318px; 
+	background: white;
+	border: 1px solid #EEEEEE;
+}
+.product-list ul .list-four a{
+	width: 356px;
+	height: 333px;
+	display: block;
+}
+.product-list ul .list-four a h3{
+	position: absolute;
+	width: 70px;
+	height: 50px;
+	top: 10px;
+	left: 130px;
+}
+.product-list ul .list-four a h3 img{
+	width: 70px;
+	height: 50px;
+}
+.product-list ul .list-four .figure{
+	position: absolute;
+	width:180px;
+	height: 190px;
+	top: 150px;
+	left: 70px;
+}
+.product-list ul .list-four .figure img{
+	width: 180px;
+	height: 190px;
+}
+.product-list ul .list-four a span{
+	position: absolute;
+	display: block;
+	color: #008CD6;
+	width: 70px;
+	height: 24px;
+	border: 1px solid #008CD6;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 130px;
+	margin-top: 100px;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+/*第二部分*/
+.vivo-contain .all-product{
+	width: 1300px;
+	margin: auto;
+}
+.all-product h2{
+	line-height: 80px;
+	text-align: center;
+}
+.all-product h2 b{
+	display: inline-block;
+	height: 1px;
+	width: 1100px;
+	position:relative;
+	overflow: hidden;
+    top:-20px;
+	margin-left: 3px;	
+	background: #dcdcdc;
+}
+.all-product h2 strong{
+	font-size: 18px;
+	background: #FAFAFA;display: inline-block;
+	top: -15px;
+	padding-left: 10px;
+	padding-right:10px;
+	position: absolute;
+	color: #333333;
+	font-weight: normal;
+	margin-top: 780px;
+	margin-left: -600px;
+}
+.all-product .all-list{
+	width: 1100px;
+	height: 1055px;
+	position: relative;
+	margin-top: -20px;
+	margin-left: 100px;
+	border: 1px #eee solid;
+}
+.all-list ul{
+	margin: auto;
+	width: 1100px;
+	height: 351px;
+}
+.all-list ul li{
+	position: relative;
+	display: block;
+	height: 351px;
+	width: 275px;
+	float: left;
+	text-align: center;
+	border-right: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    box-sizing: border-box;	
+}
+.all-list ul li:nth-child(1){
+	margin-left: -40px;
+}
+	
+.all-list ul li:hover{
+	display: block;
+	padding-top:20px;
+	transition: all .3s ease-in-out;
+	box-shadow: 1px 1px 2px  2px #008CD6;
+}
+.all-list ul li a .figure{
+	height: 248px;
+	position: relative;
+	margin-left: -20px;
+}
+.all-list ul li a .figure img{
+	width: 284px;
+	height: 284px;
+}
+.all-list ul li a h3{
+	font-size: 16px;
+	color: #333333;
+	padding: 5px 30px;
+	margin-left: 10px;
+}
+.all-list ul .border-right-none{
+	margin-left: -1px;
+	border-right: none;
+}
+.vivo-contain .vivo-pages{
+	width: 1100px;
+	height: 130px;
+	padding-top: 40px;
+	text-align: center;
+	margin-left: 140px;
+}
+.vivo-pages ul{
+	width: 284px;
+	height: 31px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:-20px;
+}
+.vivo-pages ul li{
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 18px;
+	line-height: 18px;
+	float: left;
+}
+.vivo-pages ul .next-ico{
+	display: inline-block;
+	width: 31px;
+	height: 31px;
+	margin-left: 12px;
+	margin-top: -8px;
+	background-image: url(../img/vivo_l_pages-ico.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: -32px 0;
+}
+.vivo-pages ul .next-ico:hover{
+	background-image: url(../img/vivo_l_pages-ico.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: -32px -32px;
+}
+.vivo-pages ul .active{
+	color: #008CD6;
+}
+.vivo-pages li a:hover{
+	transition: color .3s ease;
+	color: #008CD6;
+}
+.vivo-pages .form{
+	margin-left: 30px;
+	margin-top: -20px;
+	display: inline-block;
+	vertical-align: middle;	
+}
+.viov-pages .form input{
+	width: 30px;
+	height: 36px;
+	padding: 0 5px;
+	text-align: center;
+	color: #666666;
+	font-size: 18px;
+	
+}
+.vivo-pages .form .input-page{
+	width: 30px;
+	text-align: center;
+	height: 36px;
+	background:#f5f5f5;
+	border: none;
+	float: left;
+}
+.vivo-pages .form span{
+	display:inline-block;
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	margin-top: 5px;
+}
+.vivo-pages .form a{
+	display:block;
+	width: 31px;
+	height: 31px;
+	line-height: 31px;
+	border-radius: 50%;
+	background: #008CD6;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 2px;
+	margin-left:80px;
+}
+@media only screen and (max-width:768px ) {
+.new-edition{
+	display: block;
+}
+.first-contain ul li{
+	width: 100%;
+}
+.second-contain ul li{
+	width: 100%;
+}
+.third-contain ul li{
+	width: 100%;
+}
+.fourth-contain ul li{
+	width: 100%;
+	padding-top: 50px;
+}
+.fourth-contain .vivo-media-box h2{
+	margin-left: -680px;
+}
+.fourth-contain .figure{
+	float: left;
+	margin-left:500px;
+}
+.fourth-contain .cont{
+	margin-left: 50px;
+}
+.fourth-contain strong{
+	margin-left:80px;
+}
+.vivo-header{
+	height: 50px;
+}
+.vivo-header .header-logo{
+	margin-left: -40px;
+}
+.vivo-header .new-edition{
+	top: 50%;
+	left: 130px;
+}
+.vivo-header .vivo-nav{
+	visibility: hidden;
+}
+.vivo-header .nav-tool a{
+	display: none;
+}
+.vivo-header .nav-tool .nav-tool-menu span{
+	display: block;
+	margin-left:200px;
+	margin-top: 5px;
+}
+.foot-links a{
+	font-size: 10px;
+}

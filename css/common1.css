@@ -1,0 +1,20 @@
+/* Common */
+
+
+
+.container, .container-sm {
+    margin-right: auto;
+    margin-left: auto;
+    transition: width .5s linear;
+}
+
+
+
+.container-sm {
+    width: 980px;
+}
+
+
+
+
+

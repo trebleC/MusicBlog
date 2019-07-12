@@ -1,0 +1,281 @@
+#vivo-contain{
+	background: white;
+	width: 100%;
+	margin: auto 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 9;
+	margin-top: 80px;
+}
+#vivo-contain .funtouch-main{
+	padding-bottom: 100px;	
+}
+#vivo-contain .funtouch-bg{
+	width: 100%;
+	height: 800px;
+	background-image:url(../img/fthos-ov-high-pic.jpg);
+	background-repeat:no-repeat;
+	background-position: center bottom;
+	top: 0;
+	left: 0; 
+}
+#vivo-contain .funtouch-bg a{
+	display: block;
+	height: 800px;
+	width: 1000px;
+	margin: auto;
+}
+#vivo-contain .funtouch-switch{
+	width: 1100px;
+	height: 50px;
+	margin-top: -40px;
+	margin-left: 200px;
+}
+#vivo-contain .funtouch-switch .switch-option{
+	width: 363px;
+	height: 20px;
+	display: inline-block;
+    border-right: 2px solid #c9c9c9;   
+}
+.switch-option a{
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	overflow: hidden;	
+}
+.switch-option img{
+	width: 100px;
+	height: 40px;
+	padding: 0;
+	margin-left: 50px;
+}
+.funtouch-content{
+	width: 1100px;
+	margin: auto;
+	height: 560px;
+	margin-top: 100px;
+}
+.funtouch-content .content-left{
+	width: 820px;
+	height: 512px;
+	float: left;
+}
+.content-up{
+	width: 820px;
+	height: 220px;
+	display: table;
+	background: white;
+	border-radius:5px ;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+.content-down{
+	width: 820px;
+	height: 220px;
+	display: table;
+	background: white;
+	border-radius:5px ;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+.content-left dl{
+	width: 33.33%;
+	padding: 0;
+	display: table-cell;
+}
+.content-left .first-content img{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.funtouch-content dl dt{
+	font-size: 18px;
+	color: black;
+	padding: 8px 0;
+	margin: 0 20px;
+	border-bottom:1px solid #E6E6E6;
+	position: relative;
+	font-weight: 100;
+}
+.funtouch-content span{
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	width: auto;
+	text-align: center;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 200px;	
+	font-size: 14px;
+	color: #008CD6;
+}
+.funtouch-content dd{
+	font-size: 12px;	
+}
+.funtouch-content dd ul li{
+	display: block;
+	padding-top: 16px;
+	overflow: hidden;
+	color: #555555;
+}
+.third-content ul li:hover{
+	transition: color .3s ease;
+	color: #008CD6;
+}
+.content-down img{
+	margin-top: 15px;
+	margin-left: 20px;
+	border-radius:5px;
+}
+.funtouch-content .content-right{
+	float: left;
+	height: 490px;
+	margin-left: 10px;
+}
+.content-right img{
+	margin-top: 15px;
+	margin-left:20px;
+	border-radius:5px ;
+}
+.content-right dl .list-one ul li a{
+	color: #008CD6;
+}
+.content-right dd .list-one{
+	margin-left:-2px;
+}
+.content-right dd .list-two{	
+	margin-left:-20px;
+}
+.content-right dd li:hover{	
+	color: #008CD6;
+}
+
+.second-content b{
+	display:inline-block;
+    width: 4px;
+    height: 4px;
+    background:#555555;
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 6px;
+    border-radius: 100%;
+}
+.third-content b{
+	display:inline-block;
+    width: 4px;
+    height: 4px;
+    background:black;
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 6px;
+    border-radius: 100%;
+}
+.content-right b{
+	display:inline-block;
+    width: 4px;
+    height: 4px;
+    background: #008CD6;
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 6px;
+    border-radius: 100%;
+}
+#wechat-box{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+}
+#wechat{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 10px;
+	z-index: 100;
+}
+#wechat .code{
+	width: 106px;
+	height: 106px;
+	position: absolute;
+	top: -115px;
+	right: 0;
+	display: none;
+}
+#wechat a{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	display: block;
+	background-image: url(../img/v_weixin-ico.png);
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	background-color: rgba(0,0,0,.3);
+}
+#wechat a:hover{
+	transition: background-color .3s ease;
+	background-color: #008CD6;
+}
+
+@media only screen and (max-width:768px ) {
+.new-edition{
+	display: block;
+}
+.first-contain ul li{
+	width: 100%;
+}
+.second-contain ul li{
+	width: 100%;
+}
+.third-contain ul li{
+	width: 100%;
+}
+.fourth-contain ul li{
+	width: 100%;
+	padding-top: 50px;
+}
+.fourth-contain .vivo-media-box h2{
+	margin-left: -680px;
+}
+.fourth-contain .figure{
+	float: left;
+	margin-left:500px;
+}
+.fourth-contain .cont{
+	margin-left: 50px;
+}
+.fourth-contain strong{
+	margin-left:80px;
+}
+.vivo-header{
+	height: 50px;
+}
+.vivo-header .header-logo{
+	margin-left: -40px;
+}
+.vivo-header .new-edition{
+	top: 50%;
+	left: 130px;
+}
+.vivo-header .vivo-nav{
+	visibility: hidden;
+}
+.vivo-header .nav-tool a{
+	display: none;
+}
+.vivo-header .nav-tool .nav-tool-menu span{
+	display: block;
+	margin-left:200px;
+	margin-top: 5px;
+}
+.foot-links a{
+	font-size: 10px;
+}

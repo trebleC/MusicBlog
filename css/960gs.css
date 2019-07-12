@@ -1,0 +1,19 @@
+/* 960gs.css */
+.container_16{margin-left:auto;margin-right:auto;width:960px}
+
+.grid_5,.grid_9{display:inline;float:left;margin-left:10px;margin-right:10px}
+
+
+.container_16 .grid_5{width:280px}
+
+
+.container_16 .grid_9{width:640px}
+
+
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+
+
+

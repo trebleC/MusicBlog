@@ -1,0 +1,365 @@
+#vivo-contain{
+	background: white;
+	width: 100%;
+	margin: auto 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 9;
+	margin-top: 80px;
+}
+#vivo-contain .center-bg img{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+#vivo-contain .center-centent{
+	width: 100%;
+	height: auto;	
+}
+.center-centent .star-shop{
+	width: 1020px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+.center-centent .star-shop h2{
+	position: relative;
+	margin-top: 30px;
+	display: inline-block;
+}
+.center-centent .star-shop a{
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 20px;
+	color: #008CD6;
+}
+.center-centent .star-shop .seclect{
+	position: absolute;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.center-centent .star-shop .seclect form{
+	position: relative;
+	display: inline-block;
+	height: 36px;
+	font-size: 16px;
+	color: #333333;
+} 
+.center-centent .star-shop .seclect label{
+	margin-left: 10px;
+}
+.center-centent .star-shop .seclect form .sel-province{
+	height: 36px;
+	width: 150px;
+	border: 1px solid #008CD6;
+}
+.center-centent .star-shop .seclect form .sel-city{
+	height: 36px;
+	width: 130px;
+	border: 1px solid #008CD6;
+}
+.star-shop .seclect form .search input.input-search{
+	position: absolute;
+	display: inline-block;
+	width: 285px;
+	height: 36px;
+	padding: 10px;
+	border: 1px solid #008CD6;
+	border-radius: 3px;
+	margin-left: 420px;
+	margin-top: -36px;
+}
+.star-shop .seclect form .search input.search-ico{
+	background-image: url(../img/shop-search.png);
+	background-repeat: no-repeat;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	float: right;
+	position: relative;
+	top: -36px;
+	left: 329px;
+	border: 1px solid #008CD6;
+}
+.center-centent .star-shop .shop-content{
+	width: 1020px;
+	height: 460px;
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.shop-content .figure{
+	width: 288px;
+	height: 160px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.shop-content .shop-contact{
+	width: 190px;
+	float: left;
+	padding-left: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.shop-contact h3{
+	font-size: 16px;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	text-overflow: ellipsis;
+}
+.shop-contact .star-ico{
+	width: 79px;
+	height: 14px;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 10px;
+	background-image: url(../img/exper-star.jpg);
+	background-repeat:no-repeat ;
+	background-position: 0 -70px;
+}
+.shop-contact p{
+	padding-left: 25px;
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+.shop-contact p.shop-address b{
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	background-image:url(../img/exper-icon.png); 
+	background-position: -100px -60px;
+	background-repeat:no-repeat ;
+	position: absolute;
+	top: 85px;
+	left: 20px;
+}
+.shop-contact p.shop-phone b{
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	background-image:url(../img/exper-icon.png); 
+	background-position: -100px -90px;
+	background-repeat:no-repeat ;
+	position: absolute;
+	left: 20px;
+}
+.star-shop .shop-content .shop-content-one{
+	width:480px;
+	height: 200px;
+	float: left;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	background: white;
+}
+
+.star-shop .shop-content .shop-content-two{
+	width:480px;
+	height: 200px;
+	float: right;
+	background: white;
+}
+.star-shop .shop-content .shop-content-three{
+	width:480px;
+	height: 200px;
+	position: relative;
+	margin-top: 220px;
+	background: white;
+}
+.shop-dot{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #008CD6;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.center-centent .star-activity{
+	width: 1020px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	border-top: 1px solid #E3E3E3;
+}
+.star-activity h2{
+	color: #333333;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.star-activity li{
+	width: 1020px;
+	font-size: 14px;
+	position: relative;
+	padding-bottom: 30px;
+	margin-left: -40px;
+}
+.star-activity li .figure{
+	width: 320px;
+	height: 150px;
+	float: left;
+	padding-right: 30px;
+	overflow: hidden;
+}
+.star-activity li .figure img{
+ 	 width: 320px;
+ 	 height: 150px;
+}
+.star-activity li .activity{
+	width: 450px;
+	margin-left: 400px;
+	position: relative;
+}
+.star-activity li h3{
+	padding-bottom: 20px;
+	display: block;
+	font-size: 18px;
+}
+.star-activity li h4{
+	padding-bottom: 10px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+}
+.star-activity li p{
+	margin-left: 20px;
+	font-size: 14px;
+}
+.star-activity li b{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	background-image: url(../img/exper-icon.png);
+	background-repeat:no-repeat ;
+}
+.star-activity li h4 .activity-b0{
+	background-position: -100px -60px;
+}
+.star-activity li h4 .activity-b1{
+	background-position: -130px 0px;
+}
+.star-activity li p .activity-b2{
+	background-position: -130px -30px;
+	position: absolute;
+	left: 0;
+}
+.star-activity li a{
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	float: right;
+	margin-top: -130px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 14px;
+	border-radius:3px ;
+	border: none;
+	background: #008CD6;
+	cursor: pointer;
+}
+.center-centent .special{
+	width: 1020px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	border-top: 1px solid #E3E3E3;
+}
+.special h2{
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}	
+.special ul{
+	width: 100%;
+}
+.special li{
+	display: block;
+	height: 387px;
+	float: left;	
+}
+.special .figure{
+	width: 300px;
+	height: 200px;
+}
+.special .figure img{
+	width: 300px;
+	height: 200px;
+}
+.special p{
+	width: 100%;
+	font-weight:200 ;
+	font-size: 14px;
+	text-align: left;
+}
+@media only screen and (max-width:768px ) {
+.new-edition{
+	display: block;
+}
+.first-contain ul li{
+	width: 100%;
+}
+.second-contain ul li{
+	width: 100%;
+}
+.third-contain ul li{
+	width: 100%;
+}
+.fourth-contain ul li{
+	width: 100%;
+	padding-top: 50px;
+}
+.fourth-contain .vivo-media-box h2{
+	margin-left: -680px;
+}
+.fourth-contain .figure{
+	float: left;
+	margin-left:500px;
+}
+.fourth-contain .cont{
+	margin-left: 50px;
+}
+.fourth-contain strong{
+	margin-left:80px;
+}
+.vivo-header{
+	height: 50px;
+}
+.vivo-header .header-logo{
+	margin-left: -40px;
+}
+.vivo-header .new-edition{
+	top: 50%;
+	left: 130px;
+}
+.vivo-header .vivo-nav{
+	visibility: hidden;
+}
+.vivo-header .nav-tool a{
+	display: none;
+}
+.vivo-header .nav-tool .nav-tool-menu span{
+	display: block;
+	margin-left:200px;
+	margin-top: 5px;
+}
+.foot-links a{
+	font-size: 10px;
+}

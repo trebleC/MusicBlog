@@ -1,0 +1,1264 @@
+.vivo-wrap{
+	margin: 0;
+	padding: 0;	
+}
+.vivo-wrap{
+	width: 100%;
+	height: auto;
+}
+/*头部*/
+.header-wrap{
+	width: 100%;	
+	background-color: rgba(255,255,255,.97);
+    box-sizing: border-box;  
+}
+.vivo-header{
+	width: 100%;	
+	height: 80px;
+	margin-bottom: -1px;
+	margin: auto;
+	z-index: 9999999999;
+	position:fixed;
+	background: white;
+	border-bottom: 1px solid #f2f2f2;
+}
+.cl{
+	zoom: 1;
+}
+.cl:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.vivo-header a.header-logo{
+	width: 95px;
+	height: 25px;
+	top: 50%;
+	margin-top: -13px;
+	float: left;
+	position: relative;
+	left: 60px;
+	background-image: url(../img/vivo-gb-logo.png);
+	background-repeat:no-repeat ;
+	background-size:95px 25px ;
+}
+.vivo-header .new-edition{
+	font-size: 12px;
+	text-align: center;
+	top: 50%;
+	left: 200px;
+	height: 28px;
+	margin-top: -14px;
+	box-sizing: border-box;
+	position: absolute;
+}
+.vivo-header .new-edition a{
+	height: 100%;
+	line-height: 30px;
+	display: inline-block;
+	padding: 0 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px solid #008CD6;
+	color:#008CD6;
+	float: left;
+	border-radius: 20px;
+}
+.vivo-header .nav-menu{
+	width: 768px;
+	height: 700px;
+	margin-top: 80px;
+	background: white;
+	display: none;
+}
+.vivo-header .nav-menu li{
+	margin-top: 30px;
+	margin-left: -20px;
+}
+/*响应时导航栏文字的动画效果*/
+@keyframes left{
+	from{transform: translateX(-200px);opacity: 0; transition: all .3s 3s;}
+	to{transform: translateX(0px);opacity: 1;}
+}
+@keyframes move{
+	from{transform: translateX(0px);opacity: 1;transition: all 3s .3s;}
+	to{transform: translateX(-200px);opacity: 0;}
+}
+.vivo-header .nav-menu li a:hover{
+    color: #008CD6;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+}
+ul{
+	list-style: none;
+}
+.vivo-header ul.vivo-nav{
+	width: 50%; 
+	height: 100%; 
+	display: table; 
+	margin: auto;
+	display: block;
+}
+.vivo-nav li{
+	width: 1%;
+	display:table-cell;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+	left: -50px;
+	transition: background-color .3s ease;
+}
+.vivo-nav>li>a{
+	display: block;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+}
+.nav-current{
+	background-color: #008CD6;
+}
+.nav-current>a{
+	color:white !important;
+	transition: background-color .3s ease;
+	transform: .3s .41s ease;
+	opacity: .3s .41s ease;
+}
+.nav-product .product-menu{
+	width: 1500px;
+	height: 350px;
+	position: absolute;
+	margin-left: -500px;
+	top: 80px;
+	left: 0;
+	z-index: 98;
+	background: white;
+    display: none;
+    transition: background-color .3s .3s ease;
+}
+.nav-product .menus{
+	width:1400px;
+	height: 330px;
+	display: block;
+    background-color: rgba(255,255,255,.97);
+	margin-left: 170px;
+	transition: background-color .3s  ease;
+}
+
+.nav-product .product-menu dl{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+}
+.nav-product .product-menu dl dt{
+	color: black;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.nav-product .product-menu a{
+	display: block;
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+    height: 2.5em;
+    overflow: hidden;
+	transition: color .3s ease; 
+	position: relative;
+	top: 30px;
+	margin-left: 100px;
+}
+/*产品下拉菜单文字渐入效果*/
+@keyframes right{
+	from{transform: translateX(50px);opacity: 0;transition: all .3s 5s;}
+	to{transform: translateX(0px);opacity: 1;}
+}
+
+.nav-product .product-menu a:hover{
+	color: #008CD6!important;
+}
+.vivo-header .nav-tool{
+	position: absolute;
+	top:50%;
+	margin-top:-14px;
+	right: 60px;
+}
+.vivo-header .nav-tool a{
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	display: inline-block;
+	margin-left: 10px;
+	border: 1px solid #999;
+	border-radius: 50px;
+	text-align: left;
+	float: left;	
+}
+.vivo-header .nav-tool a b{
+	display: block;
+	width: 18px; 
+	height: 18px; 
+	top: 50%; 
+	left: 50%; 
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+.v-gb-ico{
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	display: inline-block;
+	overflow: hidden;
+}
+.vivo-header .nav-tool-search b{
+	background-position: 0 0;
+}
+.vivo-header .nav-tool-user b{
+	background-position: -18px 0;
+}
+.vivo-header .nav-tool-kefu b{
+	background-position: -36px 0;
+}
+.vivo-header .nav-tool-kefu:hover{
+	background-color: #008cd6; 
+	border-color: #008cd6;
+}
+.vivo-header .nav-tool-kefu:hover b{
+	background-position: -36px -18px;
+}
+.vivo-header .nav-tool-kefu em{
+	position: absolute;
+	width: 88px; 
+	height: 18px; 
+	line-height: 18px; 
+	text-align: center; 
+	border: #aaa solid 1px; 
+	border-radius: 3px; 
+	top: 34px; 
+	left: 20%; 
+	margin-left: -44px; 
+	color: #999; 
+	font-size: 12px; 
+	display: none;
+}
+.vivo-header .nav-tool-user img{
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0;
+}
+/*轮播*/
+#carousel{
+	width: 100%;
+	overflow: hidden;
+	position:fixed;
+	z-index: 1;
+	height: 740px;
+	margin-top: 80px;
+}
+/*添加轮播透明度改变的动画*/
+@keyframes toumingdu{
+	0%{opacity: 1;}
+	25%{opacity: 0.8;}
+	50%{opacity: 0.5;}
+	75%{opacity: 0.3;}
+}
+/* 改变轮播切换按钮的样式*/
+.carousel-indicators li{
+	position:relative;
+	margin-left: 15px;
+	background-color: white;
+}
+.carousel-indicators li.active{
+	margin-left: 15px;
+	background-color: #008CD6;
+	border: 1px solid #008CD6;
+}
+.carousel-inner{
+	width: 100%;
+	height:740px;
+	overflow: hidden;
+}
+.carousel-inner li{
+	width: 100%;
+	height: 740px;
+	display: block;
+	position:relative;
+	overflow: hidden;
+}
+.vivo-description{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.carousel-inner  li{
+	display: block;
+	position: absolute;
+	background-position: center center;
+	overflow: hidden;
+	background-repeat:no-repeat;
+	float: left;
+	top: 0;
+	left: 0;
+}
+.carousel-inner li .title h2{
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+}
+.carousel-inner li.active .title h2:nth-child(1){
+	opacity: 1;
+	visibility: visible;
+	transition-duration: .3s;
+	transition-delay: .2s;
+	transform:translateY(20px);
+	transition: visibility .3s .2s ease; 
+}
+.carousel-inner li.active .title h2:nth-child(2){
+	opacity: 1;
+	visibility: visible;
+	transition-duration: .4s;
+	transition-delay: .4s;
+	transform:translateY(20px);
+}
+.carousel-inner li.active .title h2:nth-child(3){
+	opacity: 1;
+	visibility: visible;
+	transition-duration: .4s;
+	transition-delay: .6s;
+	transform:translateY(20px);
+}
+.carousel-inner li.active .text span{
+	opacity: 1;
+	visibility: visible;
+	transition-duration: .5s;
+	transition-delay: 0.8s;
+	transform:translateY(20px);
+}
+.carousel-inner li .title img{
+	height: 100%;
+	width: auto;	
+}
+.carousel-inner li .title>.text{
+	margin-top: 50px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+.carousel-inner li .text span{
+	font-size: 13px;
+	line-height: 30px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    opacity: 0;
+	visibility: hidden;		
+}
+.vm-h-nn .title{
+	width: 300px;
+	height: auto;
+	position: absolute;
+	bottom: -130px;
+	right: 120px;
+}
+.vm-h-nn .title h2{
+	height: 41px;
+}
+.vm-h-nn .text{
+	position: relative;
+	margin-top:550px;
+	left: 400px;	
+}
+.vm-h-nn .text span{
+	display: inline-block;
+	color:#008CD6;		
+	border: 1px solid #008CD6;
+}
+.vm-h-nn .text .vivo-ico b{
+	display: inline-block;
+	width: 5px;
+	height: 10px;
+	margin-left: 5px;
+	background-image: url(../img/vivo-high-ico.png);
+	background-repeat:no-repeat ;
+	background-position: 0px -13px;
+}
+.x9sliver .title{
+	width: 250px;
+	height: auto;
+	margin-top:200px;
+	margin-left: 600px;
+}
+.x9sliver .title h2{
+	height: 30px;	
+}
+.x9sliver .text{
+	position: relative;
+	margin-top:380px;
+	margin-left: 680px;
+}
+.x9sliver .text span{
+	display: inline-block;
+	border: 1px solid white;
+	color: white;
+}
+.x9sliver .text .vivo-ico b{
+	display: inline-block;
+	width: 5px;
+	height: 10px;
+	margin-left: 5px;
+	background-image: url(../img/vivo-high-ico.png);
+	background-repeat:no-repeat ;
+	background-position: 0px -26px;
+}
+.vm-h-game .title{
+	width: 275px;
+	height: auto;
+	margin-top: 320px;
+	margin-left: 280px;
+}
+.vm-h-game .title h2{
+	height: 37px;
+}
+.vm-h-game .text{
+	position: relative;
+	margin-top:480px;
+	left: 370px;	
+}
+.vm-h-game  .text span{
+	display: inline-block;
+	border: 1px solid white;
+	color: white;
+}
+.vm-h-game .text .vivo-ico b{
+	display: inline-block;
+	width: 5px;
+	height: 10px;
+	margin-left: 5px;
+	background-image: url(../img/vivo-high-ico.png);
+	background-repeat:no-repeat ;
+	background-position: 0px -26px;
+}
+.vm-h-x9pyy .title{
+	width: 250px;
+	height: auto;
+	margin-top:100px;
+	margin-left: 600px;
+}
+.vm-h-x9pyy .title h2{
+	height: 30px;	
+}
+.vm-h-x9pyy .text{
+	position: relative;
+	margin-top:270px;
+	margin-left: 680px;
+}
+.vm-h-x9pyy .text span{
+	display: inline-block;
+	border: 1px solid #008CD6;
+	color: #008CD6;
+}
+.vm-h-x9pyy .text .vivo-ico b{
+	display: inline-block;
+	width: 5px;
+	height: 10px;
+	margin-left: 5px;
+	background-image: url(../img/vivo-high-ico.png);
+	background-repeat:no-repeat ;
+	background-position: 0px -13px;
+}
+.vm-h-nn{
+	display: block;
+	width: 100%;
+	height: 793px;
+	overflow: hidden;
+	vertical-align:middle;
+	background-repeat:no-repeat;
+	background-image: url(../img/vm-h-nn-bg-small.jpg);
+	background-size:100% 793px;
+}
+.x9sliver{
+	display: block;
+	width: 100%;
+	height: 793px;
+	overflow: hidden;
+	background-repeat:no-repeat;
+	vertical-align: middle;
+	background-image: url(../img/vm-h-x9slive-bg-small.jpg);
+	background-size:100% 793px;
+}
+.vm-h-game{
+	display: block;
+	width: 100%;
+	height: 793px;
+	overflow: hidden;
+	vertical-align: middle;
+	background-repeat:no-repeat;
+	background-image: url(../img/vm-h-game0627-bg-small.jpg);
+	background-size:100% 793px;
+}
+.vm-h-x9pyy{
+	display: block;
+	width: 100%;
+	height: 793px;
+	overflow: hidden;
+	vertical-align: middle;
+	background-repeat:no-repeat;
+	background-image: url(../img/vm-h-x9pyy-bg-small.jpg);
+	background-size:100% 793px;
+}
+/*内容*/
+.vivo-contain{
+	width: 100%;
+	background-color: #f6f7f8;
+	overflow: hidden;
+	position: relative;
+	z-index: 9;
+	height: auto;
+	margin: auto;
+	margin-top: 793px;
+}
+.first-contain{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+}
+.first-contain ul{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.first-contain ul li{
+	display: inline-block;
+	height:360px;
+	width: 33.33%;
+	position: relative;
+	box-sizing: content-box;
+	overflow: hidden;
+	margin-left: -3px;
+}
+.first-contain ul:nth-child(1){
+	margin-left: -20px;
+}
+.first-contain ul li a{
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow:hidden;	
+}
+.first-contain ul li a i{
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 2000px;
+	left:50%;
+	margin-left: -1000px;
+	text-align: center;
+	vertical-align: middle;
+}
+.first-contain ul li a i img{
+	height: 100% !important;	
+}
+
+.first-contain ul li a .phone-title{
+	width: 100% ;
+	position: absolute;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	left: 0;
+	bottom:30px;
+}
+.first-contain ul li a .color-black{
+	color: #333333;
+}
+.first-contain ul li a .phone-title h2{
+	line-height: 1em;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.first-contain ul li a .phone-title h3{
+	line-height: 1em;
+	font-size: 14px; 
+}
+.first-contain ul li a .color-black h3{
+	color: #999999;
+}
+.first-contain ul li span{
+	display: block;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	overflow: hidden;
+	content: "";
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -40px;
+}
+.first-contain ul li b{
+	width: 80px;
+	height: 80px;
+	display: inline-block;	
+	background-size: 600px 400px;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;	
+	background-image: url(../img/vivo-gb-ico.png);
+	background-position:-520px 0;
+	background-repeat: no-repeat;
+	content: '';
+	z-index: 99;
+}
+.first-contain ul li b:hover{
+	width: 80px;
+	height: 80px;
+	display: inline-block;	
+	background-size: 600px 400px;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;	
+	background-image: url(../img/vivo-gb-ico.png);
+	background-position:-420px 0;
+	background-repeat: no-repeat;
+	content: '';
+	z-index: 99;
+}
+.second-contain,.third-contain{
+	width: 100%;
+	height: auto;
+	position:relative;
+	margin-top: 100px;
+	margin-left: 12px;
+}
+.second-contain h2{
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: bold;
+	color: #333333;
+	display: inline-block;	
+}
+.second-contain .more-ico{
+	display:inline-block;
+	line-height: 1em;
+	padding: .6em 1.3em;
+	margin-left: 20px;
+	color: #999999;
+	border-radius: 50px;
+	font-size: 12px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+}
+.second-contain b{
+	width: 4px;
+	height: 8px;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-position: -583px -125px;
+	background-repeat: no-repeat;
+	background-size: 600px 400px;
+	display: inline-block;
+	overflow: hidden;
+	position: absolute;
+	vertical-align: middle;
+	content: "";
+	margin-left:28px;
+	margin-top: 2px;	
+}
+.second-contain .more-ico:hover{
+	border: 1px solid #008CD6;
+	color: #008CD6;
+}
+.second-contain ul{
+	display: block;
+	position: relative;
+	margin-top: 40px;
+	margin-left:-40px ;
+}
+.second-contain ul li{
+	display: block;
+	width: 25%;
+	float: left;
+	position: relative;
+}
+.second-contain ul li a{
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 5px;
+}
+.second-containul li a .figure{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.second-contain ul li a .figure img{
+	width: 100%;
+	height:auto;
+}
+.second-contain  h3{
+	font-size: 16px;
+	color: black;
+	overflow: hidden;
+	line-height: 1.8em;
+	width: 90%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	transition-property: color;
+	transition-duration:.3s ;
+}
+.second-contain h3:hover{	 
+	color:#008CD6;
+}
+.second-contain p{
+	position: absolute;
+	margin-top:-10px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 90%;
+	text-overflow: ellipsis;
+	transition-property: color;
+	transition-duration:.3s ;
+}
+.second-contain p:hover{	 
+	color: #008CD6;
+}
+.second-contain ul li strong{
+	display: block;
+	font-size: 14px;
+	position: relative;
+	color: #999999;
+	margin-left: 6px;
+	padding-top: 2em;
+}
+.second-contain hr{
+	content: "";
+	width: 20px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	margin-top: -11px;
+	margin-left:1px;
+	background-color: #CCCCCC;
+}
+.third-contain h2{
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: bold;
+	color: #333333;
+	display: inline-block;	
+}
+.third-contain .more-ico{
+	display:inline-block;
+	line-height: 1em;
+	padding: .6em 1.3em;
+	margin-left: 20px;
+	color: #999999;
+	border-radius: 50px;
+	font-size: 12px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #999999;
+}
+.third-contain span b{
+	width: 4px;
+	height: 8px;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-position: -583px -125px;
+	background-repeat: no-repeat;
+	background-size: 600px 400px;
+	display: inline-block;
+	position: absolute;
+	vertical-align: middle;
+	content: "";
+	position: absolute;
+	margin-left:8px;
+	margin-top: -37px;
+}
+.third-contain  .more-ico:hover{
+	border: 1px solid #008CD6;
+	color: #008CD6;
+}
+.third-contain ul{
+	height: 200px;
+	margin-left: -40px;
+}
+.third-contain ul li{
+	width: 33%;
+	float: left;
+	display: block;
+	position: relative;
+	height: 100%;
+}
+.third-contain ul li a{
+	margin-top: 40px;
+	display: block;
+	height: 50%;
+	overflow: hidden;
+}
+.third-contain ul li .info{
+	width: 100px;
+	height: 50%;
+	position: absolute;
+}
+.third-contain ul li .info img{
+	width: 100px;
+	height: 100px;
+}
+.third-contain ul li .int{
+	position: relative;
+	display: block;
+	margin-left: 100px;
+	height: 100%;
+}
+.third-contain h3{
+	position: relative;
+	margin-top: 0px;
+	margin-left:20px;
+	font-size: 16px;
+	color: black;
+	overflow: hidden;
+	line-height: 1.8em;
+	width: 90%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	transition-property: color;
+	transition-duration:.3s ;
+}
+.third-contain p{
+	position: absolute;
+	margin-top:-5px;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 90%;
+	text-overflow: ellipsis;
+	transition-property: color;
+	transition-duration:.3s ;
+}
+.third-contain h3 b{
+	display: block;
+	position: relative;
+	font-size: 12px;
+	width: 35px;
+	height: 25px;
+	display: inline-block;
+	padding: .5em;
+	line-height: 1em;
+	border-radius: 5px;
+	background-color: #008CD6;
+	text-align: center;
+	color: white;
+	margin: 5px;
+	margin-left:0px;
+}
+.third-contain span{
+	font-size: 12px;
+	color: #999999;
+	position:absolute;
+	margin-left: 20px;
+	margin-top:40px;
+}
+.fourth-contain{
+	background:#edeff1;
+	margin-top: 100px;
+	position: relative;
+}
+.fourth-contain .vivo-media-box{
+	width: 1400px;
+	margin: auto;
+	padding-top:50px;
+	position: relative;
+	padding-bottom: 120px;
+}
+.fourth-contain h2{
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: bold;
+	color: #333333;
+	display: inline-block;
+}
+.fourth-contain ul{
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	margin-left: -80px;
+}
+.fourth-contain ul li{
+	width:33.333%;
+	display: block;
+	position: relative;
+	float: left;
+}
+.fourth-contain ul li .mediabox{
+	display: block;
+	position: relative;
+    margin: 0 40px;
+	color: #999999;
+}
+.fourth-contain .figure{
+	position: relative;
+	width: 125px;
+	height: 105px;
+	float: right;
+}
+.fourth-contain ul li a{
+	display: block;
+	position: relative;
+	margin: 0;
+	color: #999999;
+	height: auto;
+}
+.fourth-contain img{
+	width: 125px;
+	height: 105px;
+}
+.fourth-contain .cont{
+	display: block;
+	position: absolute;
+	margin-top: -20px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 1.2em;
+	text-align: left;
+	height: 6.2em;
+	overflow: hidden;
+}
+.fourth-contain .cont h3{
+	color: black;
+	font-size: 16px;
+}
+.fourth-contain p{
+	color: #666666;
+	display: block;
+	position: relative;
+	margin-top: -10px;
+	overflow: hidden;
+	padding-top: .5em;
+	height: 50px;
+}
+.fourth-contain strong{
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	margin-left:70px;
+	font-size: 14px;
+	color: #999999;	
+}
+.fourth-contain hr{
+	content: "";
+	width: 20px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	margin-top: -20px;
+	margin-left:-25px;
+	background-color: #CCCCCC;
+}
+.fourth-contain span{
+	width: 21px;
+	height: 18px;
+	display: inline-block;
+	position: absolute;
+	margin-left: -25px;
+	vertical-align: middle;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-position:-432px -184px ;
+	background-repeat: no-repeat;
+	background-size: 600px 400px;
+}
+.fourth-contain strong .span2{
+	width: 21px;
+	height: 18px;
+	display: inline-block;
+	position: absolute;
+	margin-left: -25px;
+	vertical-align: middle
+	background-image: url(../img/vivo-gb-ico.png);
+	background-position:-567px -184px ;
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+}
+/*脚部*/
+.vivo-footer-wrap{
+	width: 100%;
+	height: 350px;
+	background-color: #222222;
+	position: relative;
+}
+.vivo-foot{
+	width: 100%;
+	height: 350px;
+	background-color: #222222;
+	left: 0;
+	bottom: 0;
+	color: #999999;
+	font-size: 14px;
+	text-align: center;
+	position:fixed;
+	z-index: 1;
+	display: none;
+}
+.vivo-foot .foot-logo{
+	text-align: center;
+	padding: 40px 0 20px 0px;
+}
+.vivo-foot .foot-logo img{
+	width: 125px;
+	height: 50px;
+}
+.vivo-foot .foot-ico{
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	margin-top:20px ;
+}
+.foot-ico a{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin: 0 15px;
+	background-color: #666666;
+	border-radius: 50%;
+	transition: background-color .3s ease; 
+}
+.foot-ico .foot-sina b{
+	width: 45px;
+	height: 45px;
+    display: inline-block;
+    overflow: hidden;
+	position: relative;
+	border-radius: 50%;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+	background-position:-420px -80px;
+	content: "";
+	vertical-align: middle;
+	background-color:#666666;
+	transition: background-color .3s ease;
+}
+.foot-ico .foot-sina b:hover{
+	background-color: red;
+}
+.foot-ico .foot-wechat b{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+	position: relative;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+	background-position:-555px -80px;
+	content: "";
+	vertical-align: middle;
+	background-color:#666666;
+	transition: background-color .3s ease;
+}
+.foot-ico .foot-wechat b:hover{
+	background-color:#20A900;
+}
+.vivo-foot .wechat-ico{
+	position: absolute;
+	margin-top: -180px;
+	margin-left: -25px;
+	display: none;
+}
+.vivo-foot .wechat-ico .caret{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -10px;
+	color: white;
+	border-width: 10px;    /*调节三角形的大小*/
+}
+.foot-ico .foot-v b{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+	position: relative;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+	background-position:-285px -80px;
+	content: "";
+	vertical-align: middle;
+	background-color:#666666;
+	transition: background-color .3s ease;
+}
+.foot-ico .foot-v b:hover{
+	background-color:#008CD6;
+}
+.foot-ico .foot-tie b{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+	position: relative;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+	background-position:-330px -80px;
+	content: "";
+	vertical-align: middle;
+	background-color:#666666;
+	transition: background-color .3s ease;
+}
+.foot-ico .foot-tie b:hover{
+	background-color:#2384EB;
+}
+.foot-ico .foot-home b{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+	position: relative;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+	background-position:-194px -80px;
+	content: "";
+	vertical-align: middle;
+	background-color:#666666;
+	transition: background-color .3s ease;
+}
+.foot-ico .foot-home b:hover{
+	background-color:#42B0F4;
+}
+.foot-ico .foot-kefu{
+	width: 140px;
+	height: 36px;
+	line-height:37px;
+	border-radius: 18px;
+	color: white;
+	margin-left: 45px;
+	position: relative;
+	margin-top: 3px;
+	text-align: left;
+	background-color:#666666;
+	transition: background-color .3s ease;
+}
+.foot-ico .foot-kefu:hover{
+	background-color:#008CD6;
+}
+.foot-ico .foot-kefu span{
+	display: block;
+	content: "";
+	width: 1px;
+	height: 45px;
+	background: #666666;
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	margin-top: -22px;
+}
+.foot-ico .foot-kefu b{
+	width:36px;
+	height: 36px;
+    display: inline-block;
+    overflow: hidden;
+	position: relative;
+	background-image: url(../img/vivo-gb-ico.png);
+	background-size: 600px 400px;
+	background-repeat: no-repeat;
+	background-position:-234px -83px;
+	content: "";
+	vertical-align: middle;
+	margin: -7px 0 0 5px;
+}
+.foot-links a{
+	color: #666;
+	display: inline-block;
+	position: relative;
+	margin-top: 100px;
+	margin-left: 16px;
+	transition: color .3s ease; 
+}
+.foot-links span{
+	margin-left: 4px;
+	font-size: 1px;
+}
+.foot-links a:hover{
+	color: #008CD6;
+}
+.vivo-foot .foot-copy{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 1.4em;
+	color: #666666;
+}
+.foot-copy a:hover{
+	color: #008CD6;
+}
+.vivo-foot .foot-copy .bar{
+	margin-left: 5px;
+	margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.vivo-box{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+}
+.return-top{
+	height: 50px;
+	width: 50px;
+	top:600px;
+	display: none;
+	margin-left: 20px;
+	position: fixed;
+	right: 10px;
+	z-index: 1;
+	background-color: #5E5E5E;
+	border-radius: 5px;
+}
+.return-top .active{
+	display: block;
+}
+.glyphicon-triangle-top{
+	position: relative;
+	margin-left: 15px;
+	margin-top: 5px;
+	color: white;
+}
+.top{
+	width: 30px;
+	height: 20px;
+	display: block;
+	margin-left: -5px;
+	margin-top: 5px;
+	color: white;
+}
+.return-top:hover{
+	transition: background-color .3s ease;
+	background-color: #008CD6;
+}
