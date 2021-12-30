@@ -1,0 +1,174 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textare {
+    font-size: 14px;
+    color: #333333;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none!important;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+    clear: both;
+}
+
+.break-word {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tar {
+    text-align: right;
+}
+
+.tal {
+    text-align: left;
+}
+
+
+/* scroll-y */
+
+.scroll-y {
+    overflow-y: auto;
+}
+
+
+/* webkit美化滚动条 */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: #dedede;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: none;
+    background: rgba(0, 0, 0, .1);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: #999999;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #999999;
+    border-radius: 4px;
+}
