@@ -61,8 +61,8 @@ ol {
 }
 
 a {
-    text-decoration: none!important;
-    color: #fff;
+    color: #333;
+    text-decoration: none!important
 }
 
 a:hover {

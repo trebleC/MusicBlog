@@ -7,4 +7,5 @@
 ## ToDoList
 
 - [ ] 播放器
-- [ ] about_page
+- [x] about_page
+- [x] playlist_page
