@@ -140,7 +140,7 @@
 .about-banner {
     height: 200px;
     border-radius: 10px;
-    background-image: url(/assets/banner/287491.jpeg);
+    background-image: url(../assets/banner/287491.jpeg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
