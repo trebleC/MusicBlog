@@ -1,7 +1,7 @@
 # MusicBlog
 应付课程设计、期末项目、UI设计课程作业，页面包括首页，列表页，详情页，关于页
 
-[在线预览](http://118.195.182.37/MusicBlog/)
+[在线预览](https://treblec.github.io/MusicBlog/)
 
 兼容ie，只有轮播图和播放器插件用到js
 
