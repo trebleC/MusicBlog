@@ -1,0 +1,10 @@
+FROM alpine:latest
+
+RUN apk --no-cache add git && \
+    mkdir -p /usr/src/app
+
+COPY fetch.sh /usr/src/app/
+RUN chmod +x /usr/src/app/fetch.sh
+RUN rm -rf /usr/src/app/html/*
+WORKDIR /usr/src/app
+CMD ["./fetch.sh"]
